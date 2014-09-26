@@ -1,0 +1,28 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+  <!--
+    This jelly script is used for per-project configuration.
+
+    See global.jelly for a general discussion about jelly script.
+  -->
+
+  <!--
+    Creates a text field that shows the value of the "name" property.
+    When submitted, it will be passed to the corresponding constructor parameter.
+  -->
+  <f:entry title="File" field="file"
+      description="Enter the file to be parsed.">
+      <f:textbox />
+    </f:entry>
+  <f:entry title="Regex" field="regex"
+      description="Enter the regex used to locate the Number this ratchet will be based on. Note the number format for ratcheting is \d?\d?\d?\.\d?">
+      <f:textbox />
+    </f:entry>
+    <f:entry title="override" field="override"
+      description="Set the threshold manually. Note, if this value is present, it will continue to override the threshold so long as it is populated..">
+      <f:textbox />
+    </f:entry>
+    <f:entry title="Report file" field="report"
+      description="Enter the name of the HTML ratchet report.">
+      <f:textbox />
+    </f:entry>
+</j:jelly>
