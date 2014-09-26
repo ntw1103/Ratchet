@@ -30,7 +30,7 @@ Usage
     Failures
         When the Threshold fails to be met, the Ratchet plugin will cause 
         the job to fail. It will display the current result against the threshold.
-	![failures](https://github.com/ntw1103/Ratchet/blob/master/Ratcheting_failure.PNG)
+        ![failures](https://github.com/ntw1103/Ratchet/blob/master/Ratcheting_failure.PNG)
     Reports
         The Ratchet report will display a bar graph showing the percentage
         of the different builds.
