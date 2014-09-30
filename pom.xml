@@ -6,11 +6,18 @@
     <version>1.509.3</version><!-- which version of Jenkins is this plugin built against? -->
   </parent>
 
-  <groupId>com.mattersight</groupId>
-  <artifactId>Ratchet</artifactId>
-  <version>0.1.133</version>
+  <groupId>com.mattersight.jenkinsci.plugins</groupId>
+  <artifactId>ratchet</artifactId>
+  <version>0.1.134</version>
   <packaging>hpi</packaging>
-
+   <licenses>
+  <license>
+    <name>BSD style</name>
+    <url>http://www.opensource.org/licenses/bsd-license.php</url>
+    <distribution>repo</distribution>
+    <comments>You're free little source code, you're free!</comments>
+  </license>
+</licenses>
   <!-- get every artifact through repo.jenkins-ci.org, which proxies all the artifacts that we need -->
     <build>
         <plugins>
